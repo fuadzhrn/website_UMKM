@@ -16,7 +16,7 @@ include __DIR__ . '/../includes/header.php';
 <div class="auth-wrapper admin-login-bg" style="min-height:100vh;">
     <div class="auth-card admin-card">
         <div class="text-center">
-            <div class="auth-icon" style="background-color:#3E2723; color:#D4AF37;"><i class="bi bi-shield-lock"></i></div>
+            <div class="auth-icon"><img src="<?php echo BASE_URL; ?>/assets/img/logo/logo.jpg" alt="Logo Hannasa"></div>
             <h3 class="fw-bold">Login Admin</h3>
             <p class="text-muted">Khusus untuk administrator Hannasa</p>
         </div>
@@ -44,7 +44,7 @@ include __DIR__ . '/../includes/header.php';
 </div>
 
 <!-- Bootstrap 5 JS Bundle -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo BASE_URL; ?>/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="<?php echo BASE_URL; ?>/assets/js/script.js"></script>
 </body>
 </html>

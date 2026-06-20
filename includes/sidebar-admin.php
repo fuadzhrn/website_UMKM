@@ -10,7 +10,12 @@ if (!defined('BASE_URL')) {
 $current_page = basename($_SERVER['PHP_SELF']);
 ?>
 <aside class="sidebar-hannasa">
-    <a href="<?php echo BASE_URL; ?>/admin/dashboard.php" class="sidebar-brand">Hannasa<span> Admin</span></a>
+    <a href="<?php echo BASE_URL; ?>/admin/dashboard.php" class="sidebar-brand">
+        <span class="logo-badge">
+            <img src="<?php echo BASE_URL; ?>/assets/img/logo/logo.jpg" alt="Logo Hannasa">
+        </span>
+        Hannasa<span> Admin</span>
+    </a>
     <nav class="nav flex-column">
         <a class="nav-link <?php echo $current_page == 'dashboard.php' ? 'active' : ''; ?>" href="<?php echo BASE_URL; ?>/admin/dashboard.php">
             <i class="bi bi-speedometer2"></i> Dashboard

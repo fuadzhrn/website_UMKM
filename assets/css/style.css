@@ -64,12 +64,38 @@ a {
 
 .navbar-hannasa .navbar-brand {
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: var(--color-caramel-dark) !important;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
 }
 
 .navbar-hannasa .navbar-brand span {
     color: var(--color-gold);
+}
+
+/* Badge bulat putih untuk membungkus logo di area berlatar gelap (sidebar, footer) */
+.logo-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-white);
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.logo-badge img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navbar-hannasa .logo-badge {
+    width: 46px;
+    height: 46px;
 }
 
 .navbar-hannasa .nav-link {
@@ -305,15 +331,22 @@ a {
 }
 
 .auth-card .auth-icon {
-    width: 64px;
-    height: 64px;
-    line-height: 64px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
     border-radius: 50%;
     background-color: var(--color-cream);
     color: var(--color-caramel-dark);
     font-size: 1.6rem;
     margin: 0 auto 1rem;
     text-align: center;
+    overflow: hidden;
+}
+
+.auth-card .auth-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .form-label {
@@ -339,6 +372,22 @@ a {
 .footer-hannasa h5 {
     color: var(--color-gold);
     margin-bottom: 1rem;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.footer-brand .logo-badge {
+    width: 44px;
+    height: 44px;
+}
+
+.footer-brand h5 {
+    margin-bottom: 0;
 }
 
 .footer-hannasa a {
@@ -378,16 +427,23 @@ a {
 .sidebar-hannasa .sidebar-brand {
     font-family: var(--font-heading);
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     color: var(--color-white);
     padding: 0 1.5rem 1.5rem;
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 1rem;
 }
 
 .sidebar-hannasa .sidebar-brand span {
     color: var(--color-gold);
+}
+
+.sidebar-hannasa .logo-badge {
+    width: 42px;
+    height: 42px;
 }
 
 .sidebar-hannasa .nav-link {

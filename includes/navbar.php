@@ -13,7 +13,12 @@ $current_page = basename($_SERVER['PHP_SELF']);
 ?>
 <nav class="navbar navbar-expand-lg navbar-hannasa sticky-top">
     <div class="container">
-        <a class="navbar-brand" href="<?php echo BASE_URL; ?>/public/index.php">Hannasa<span>.</span></a>
+        <a class="navbar-brand" href="<?php echo BASE_URL; ?>/public/index.php">
+            <span class="logo-badge">
+                <img src="<?php echo BASE_URL; ?>/assets/img/logo/logo.jpg" alt="Logo Hannasa">
+            </span>
+            Hannasa<span>.</span>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHannasa">
             <span class="navbar-toggler-icon"></span>
         </button>

@@ -26,7 +26,7 @@ include __DIR__ . '/../includes/navbar.php';
     <div class="container">
         <div class="row align-items-center gy-4">
             <div class="col-lg-6">
-                <span class="badge-gold"><i class="bi bi-stars me-1"></i> Kue Khas Medan</span>
+                <span class="badge-gold"><i class="bi bi-stars me-1"></i>kue manis</span>
                 <h1>Bika Ambon &amp; Cake Hannasa</h1>
                 <p class="lead">Kelembutan dan cita rasa otentik dalam setiap gigitan. Dibuat dari bahan pilihan untuk menemani momen spesial Anda.</p>
                 <a href="<?php echo BASE_URL; ?>/public/produk.php" class="btn btn-gold btn-lg mt-2">Lihat Produk <i class="bi bi-arrow-right ms-1"></i></a>

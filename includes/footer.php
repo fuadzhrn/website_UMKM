@@ -11,7 +11,12 @@ if (!defined('BASE_URL')) {
         <div class="container">
             <div class="row gy-4">
                 <div class="col-lg-4">
-                    <h5>Hannasa</h5>
+                    <div class="footer-brand">
+                        <span class="logo-badge">
+                            <img src="<?php echo BASE_URL; ?>/assets/img/logo/logo.jpg" alt="Logo Hannasa">
+                        </span>
+                        <h5>Hannasa</h5>
+                    </div>
                     <p>Toko kue khas Bika Ambon &amp; Cake Hannasa. Dibuat dengan bahan pilihan dan resep terbaik untuk momen spesial Anda.</p>
                 </div>
                 <div class="col-lg-2 col-md-3">
@@ -48,7 +53,7 @@ if (!defined('BASE_URL')) {
     </footer>
 
     <!-- Bootstrap 5 JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo BASE_URL; ?>/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Custom JS -->
     <script src="<?php echo BASE_URL; ?>/assets/js/script.js"></script>

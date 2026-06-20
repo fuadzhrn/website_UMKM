@@ -18,7 +18,7 @@ include __DIR__ . '/../includes/navbar.php';
 <div class="auth-wrapper">
     <div class="auth-card user-card">
         <div class="text-center">
-            <div class="auth-icon"><i class="bi bi-person"></i></div>
+            <div class="auth-icon"><img src="<?php echo BASE_URL; ?>/assets/img/logo/logo.jpg" alt="Logo Hannasa"></div>
             <h3 class="fw-bold">Login Pelanggan</h3>
             <p class="text-muted">Masuk untuk mulai berbelanja di Hannasa</p>
         </div>
