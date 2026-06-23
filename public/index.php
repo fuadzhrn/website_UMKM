@@ -89,7 +89,7 @@ include __DIR__ . '/../includes/navbar.php';
                 <div class="feature-card">
                     <div class="feature-icon"><i class="bi bi-hand-thumbs-up"></i></div>
                     <h5>Resep Otentik</h5>
-                    <p class="text-muted mb-0">Resep turun-temurun khas Medan yang terjaga kualitasnya.</p>
+                    <p class="text-muted mb-0">Resep turun-temurun yang terjaga kualitasnya.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">

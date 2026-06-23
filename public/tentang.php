@@ -22,7 +22,7 @@ include __DIR__ . '/../includes/navbar.php';
             </div>
             <div class="col-lg-6">
                 <h2 class="section-title">Cerita Kami</h2>
-                <p>Bika Ambon &amp; Cake Hannasa berawal dari kecintaan terhadap kue tradisional khas Medan. Sejak awal berdiri, kami berkomitmen menghadirkan Bika Ambon dan Cake dengan rasa autentik, tekstur lembut, dan kualitas terbaik untuk setiap pelanggan.</p>
+                <p>Bika Ambon &amp; Cake Hannasa berawal dari kecintaan terhadap kue tradisional. Sejak awal berdiri, kami berkomitmen menghadirkan Bika Ambon dan Cake dengan rasa autentik, tekstur lembut, dan kualitas terbaik untuk setiap pelanggan.</p>
                 <p>Setiap produk dibuat menggunakan bahan baku pilihan, diolah dengan proses higienis, dan melalui resep yang telah disempurnakan agar menghasilkan cita rasa khas yang konsisten di setiap pesanan.</p>
             </div>
         </div>

@@ -39,9 +39,9 @@ if (!defined('BASE_URL')) {
                 <div class="col-lg-3 col-md-6">
                     <h5>Kontak Kami</h5>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><i class="bi bi-whatsapp me-2"></i>0812-3456-7890</li>
+                        <li class="mb-2"><i class="bi bi-whatsapp me-2"></i>0812-6424-7270</li>
                         <li class="mb-2"><i class="bi bi-envelope me-2"></i>info@hannasa.com</li>
-                        <li class="mb-2"><i class="bi bi-geo-alt me-2"></i>Jl. Kue Manis No. 1, Medan</li>
+                        <li class="mb-2"><i class="bi bi-geo-alt me-2"></i>Jl. Pandawa Desa karang Rejo Psr 2, Stabat, Sumatera Utara, Indonesia</li>
                     </ul>
                 </div>
             </div>

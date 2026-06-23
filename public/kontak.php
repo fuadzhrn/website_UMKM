@@ -31,10 +31,10 @@ include __DIR__ . '/../includes/navbar.php';
                 <div class="card-hannasa p-4 h-100">
                     <h5 class="mb-3">Informasi Kontak</h5>
                     <ul class="list-unstyled">
-                        <li class="mb-3"><i class="bi bi-whatsapp me-2 text-success"></i> 0812-3456-7890</li>
+                        <li class="mb-3"><i class="bi bi-whatsapp me-2 text-success"></i> 0812-6424-7270</li>
                         <li class="mb-3"><i class="bi bi-envelope me-2 text-secondary"></i> info@hannasa.com</li>
-                        <li class="mb-3"><i class="bi bi-geo-alt me-2 text-secondary"></i> Jl. Kue Manis No. 1, Medan, Sumatera Utara</li>
-                        <li class="mb-3"><i class="bi bi-clock me-2 text-secondary"></i> Senin - Sabtu, 08.00 - 20.00 WIB</li>
+                        <li class="mb-3"><i class="bi bi-geo-alt me-2 text-secondary"></i> Jl. Pandawa Desa karang Rejo Psr 2, Stabat, Sumatera Utara, Indonesia</li>
+                        <li class="mb-3"><i class="bi bi-clock me-2 text-secondary"></i> Senin - Minggu, 08.00 - 20.00 WIB</li>
                     </ul>
                 </div>
             </div>
