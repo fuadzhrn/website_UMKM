@@ -64,6 +64,26 @@ include __DIR__ . '/../includes/navbar.php';
                 </div>
             </div>
         </div>
+
+        <!-- Peta Lokasi -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <h5 class="mb-3"><i class="bi bi-geo-alt-fill me-2" style="color:var(--color-caramel);"></i>Lokasi Kami</h5>
+                <div class="card-hannasa p-0 overflow-hidden">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.4574725593243!2d98.50438!3d3.7098991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3036d512c8febed1%3A0xcb864a9b53ac070!2sHannasa%20Bika%20Ambon%20%26%20Cake!5e0!3m2!1sid!2sid!4v1782704436015!5m2!1sid!2sid"
+                        width="100%"
+                        height="420"
+                        style="border:0; display:block;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        title="Lokasi Hannasa Bika Ambon & Cake">
+                    </iframe>
+                </div>
+                <p class="text-muted mt-2 small"><i class="bi bi-info-circle me-1"></i>Jl. Pandawa Desa Karang Rejo Psr 2, Stabat, Sumatera Utara, Indonesia</p>
+            </div>
+        </div>
     </div>
 </section>
 
